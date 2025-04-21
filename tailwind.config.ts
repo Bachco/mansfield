@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { garamond } from "./public/fonts/_fonts";
 
 const config: Config = {
   content: [
@@ -21,7 +22,7 @@ const config: Config = {
     },
     extend: {
       colors: {
-        primary: '#d41a1a',
+        primary: '#896C25',
         secondary: '#06163a',
         accent: '#F13024',
         cText: '#959ba9'
@@ -37,7 +38,8 @@ const config: Config = {
       },
       fontFamily: {
         rubik: [`var(--font-rubik)`],
-        barlow: [`var(--font-barlow)`]
+        barlow: [`var(--font-barlow)`],
+        garamond: [`var(--font-garamond)`]
       },
       transitionProperty: {
         'width': 'width',

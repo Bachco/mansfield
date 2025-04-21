@@ -5,21 +5,13 @@ import Element__withImage from "./components/ElementWrap/ElementWrap__withImage"
 import Services__HP from "./elements/Services/Services__HP";
 import Portfolio__HP from "./elements/Portfolio/Portfolio__HP";
 import { hpPortfolioData, pageData, servicesData } from "./api/data";
+import ElementWrap__default from "./components/ElementWrap/ElementWrap__default";
 
 export default function Home() {
   return (
-    <main className="">
-      <ContainerWrap__wide>
-        <Banner__homepage />  
-      </ContainerWrap__wide>      
+    <main className="">    
       <ContainerWrap__narrow>
-        <Element__withImage data={pageData}/>
-      </ContainerWrap__narrow>
-      <ContainerWrap__wide customClass={'bg-[#f5f5f5]'}>
-        <Services__HP data={servicesData} />
-      </ContainerWrap__wide>
-      <ContainerWrap__narrow>
-        <Portfolio__HP data={hpPortfolioData} />
+        <ElementWrap__default data={pageData}/>
       </ContainerWrap__narrow>
     </main>
   );

@@ -60,3 +60,25 @@ export const barlow = localFont({
     ],
     variable: '--font-rubik'
   })
+
+  export const garamond = localFont({
+    src: [
+      {
+        path: 'garamond/cormorant-garamond-v19-latin_latin-ext-regular.woff2',
+        weight: '400'
+      },
+      {
+        path: 'garamond/cormorant-garamond-v19-latin_latin-ext-500.woff2',
+        weight: '500'
+      },
+      {
+        path: 'garamond/cormorant-garamond-v19-latin_latin-ext-600.woff2',
+        weight: '600'
+      },
+      {
+        path: 'garamond/cormorant-garamond-v19-latin_latin-ext-700.woff2',
+        weight: '700'
+      }
+    ],
+    variable: '--font-garamond'
+  })

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { barlow, rubik } from "@/public/fonts/_fonts";
+import { barlow, garamond, rubik } from "@/public/fonts/_fonts";
 import StoreProvider from "./StoreProvider";
 
 export const metadata: Metadata = {
-  title: "BM - welding",
+  title: "Mansfield",
   description: "...",
 };
 
@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${rubik.variable} ${barlow.variable} font-rubik`}>
-      <body id="page-wrap">
+    <html lang="en" className={`${garamond.variable} font-garamond`}>
+      <body id="page-wrap" className="bg-black">
         <StoreProvider>
           <Header />
           {children}

@@ -38,16 +38,9 @@ export const pageAboutData: ElementProps = {
 
 export const pageData: ElementProps = {
     title: {
-        title: 'Spoľahlivosť, rýchlosť a kvalita.',
-        subTitle: 'Snívajte vo veľkom a získajte odtiaľto viac inšpiratívnych riešení.',
+        title: 'Námestie Slovenskej republiky 5/8, 014 01 Bytča',
         headingLevel: 2,
-        preTitle: 'O nás'
     },
-    content: '<p><strong>Spoločnosť BM WELDING</strong> je mladá a dynamická firma, ktorá sa špecializuje na výrobu kovových produktov na mieru a montážne práce.</p>'
-    +'<p>Spoločnosť bola založená odborníkmi s hlbokým porozumením a skúsenosťami v oblasti kovovýroby. Tam, kde vznikajú výzvy, sa vždy rodia aj riešenia, s ktorými vám radi pomôžeme.</p>',
-    image: '/images/Element/1.jpg',
-    link: '/about',
-    linkString: 'Čitať viac'
 };
 
 
