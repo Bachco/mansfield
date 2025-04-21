@@ -1,0 +1,131 @@
+{
+    "contactData": {
+      "title": {
+        "title": "Kontakt",
+        "headingLevel": 1,
+        "preTitle": "Kontaktujte nás"
+      }
+    },
+    "pageData": {
+      "title": {
+        "title": "Spoločné úsilie pre lepšie zajtrajšky.",
+        "subTitle": "Snívajte vo veľkom a získajte odtiaľto viac inšpiratívnych riešení.",
+        "headingLevel": 2,
+        "preTitle": "O nás"
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+      "image": "/images/Element/1.jpg"
+    },
+    "servicesData": {
+      "title": {
+        "title": "Čo robíme.",
+        "headingLevel": 2,
+        "preTitle": "Služby"
+      },
+      "items": {
+        "setting": "svg",
+        "items": [
+          {
+            "title": "Automotive Parts & System",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.",
+            "icon": "Icon__welder"
+          },
+          {
+            "title": "Construction & Engineering",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.",
+            "icon": "Icon__metal"
+          },
+          {
+            "title": "Energy Distribution & Grids",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.",
+            "icon": "Icon__worker"
+          },
+          {
+            "title": "Auto & Motive Power Supply",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.",
+            "icon": "Icon__cool"
+          }
+        ]
+      }
+    },
+    "portfolioData": {
+      "title": {
+        "title": "Čo sme už vytvorili.",
+        "headingLevel": 2,
+        "preTitle": "Naša práca"
+      },
+      "items": {
+        "setting": "images",
+        "items": [
+          {
+            "title": "Prístrešok",
+            "content": "Varin",
+            "images": [
+              { "link": "/images/Portfolio/0/1.jpg" },
+              { "link": "/images/Portfolio/0/2.jpg" }
+            ]
+          },
+          {
+            "title": "Oprava jamy STK",
+            "content": "Žilina",
+            "images": [
+              { "link": "/images/Portfolio/1/1.jpg" },
+              { "link": "/images/Portfolio/1/2.jpg" }
+            ]
+          },
+          {
+            "title": "Protizvukova ochrana",
+            "content": "Bratislava",
+            "images": [
+              { "link": "/images/Portfolio/2/1.jpg" },
+              { "link": "/images/Portfolio/2/2.jpg" }
+            ]
+          },
+          {
+            "title": "Spevňovanie statiky strechy skladov",
+            "content": "Neografia Martin",
+            "images": [
+              { "link": "/images/Portfolio/3/1.jpg" },
+              { "link": "/images/Portfolio/3/2.jpg" }
+            ]
+          }
+        ]
+      }
+    },
+    "navData": [
+      { "name": "Domov", "path": "/" },
+      { "name": "O nás", "path": "/about" },
+      { "name": "Služby", "path": "/services" },
+      { "name": "Naša práca", "path": "/work" },
+      { "name": "Kontakt", "path": "/contact" }
+    ],
+    "bannerData": {
+      "items": [
+        {
+          "src": "/images/1.jpg",
+          "title": "We Are Integrated Engineering Ltd.",
+          "subTitle": "Lorrem ipsum",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, veniam!",
+          "link": "/about",
+          "linkTitle": "O nás"
+        },
+        {
+          "src": "/images/2.jpg",
+          "title": "We Are Integrated Engineering Ltd.",
+          "subTitle": "Subtitle 2",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, veniam!",
+          "link": "/work",
+          "linkTitle": "Naša práca"
+        },
+        {
+          "src": "/images/3.jpg",
+          "title": "We Are Integrated Engineering Ltd.",
+          "subTitle": "Subtitle 3",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, veniam!",
+          "link": "/services",
+          "linkTitle": "Služby"
+        }
+      ]
+    }
+  }
+  

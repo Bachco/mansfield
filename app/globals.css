@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .h1, .h2 {
+    letter-spacing: -2.4px;
+  }
+
+  a {
+    @apply hover:text-primary transition-colors duration-200 font-medium
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

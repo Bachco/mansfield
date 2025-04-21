@@ -1,0 +1,25 @@
+.h2 
+    @apply text-2xl uppercase mb-6 font-barlow font-semibold text-secondary
+    letter-spacing: -0.52px
+
+.text
+    @apply text-[14px] leading-6
+    color: #959ba9
+
+    strong
+        @apply text-secondary
+        margin: 0 0
+
+    &::after
+        @apply absolute h-full right-0 top-0 md:w-[calc(100%-60px)] w-[calc(100%-30px)]
+        content: ""
+        border: 1px solid #ecebff
+        z-index: -1
+
+.icon
+    @apply md:text-4xl text-2xl leading-none flex items-center justify-center md:w-[120px] w-[60px] md:h-[120px] h-[60px] rounded-full text-primary bg-white shrink-0 grow-0 basis-auto
+    border: 1px solid #ecebff
+
+.col
+    @apply relative flex md:gap-[30px] gap-4 items-center
+    padding: 30px 5px 30px 0

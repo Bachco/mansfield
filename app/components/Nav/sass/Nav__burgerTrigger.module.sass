@@ -1,0 +1,38 @@
+.burgerMenuContainer
+    @apply content-none w-14 h-6 right-0 cursor-pointer fixed top-9 z-50
+
+    .burgerMenuTrigger
+        @apply content-none w-14 h-6 relative right-0 cursor-pointer
+
+    .burgerMenu
+        transition: 250ms width ease-in-out, 500ms background-color ease-in-out
+        @apply content-none bg-white absolute w-9 h-1 z-0 top-[calc(25px/2-1.5px)]
+
+        &::after
+            transition: 250ms transform ease-in-out, 500ms background-color ease-in-out
+            content: ""
+            @apply bg-white absolute w-9 h-1 translate-y-[10px] z-0
+
+        &::before
+            transition: 250ms transform ease-in-out, 500ms background-color ease-in-out
+            content: ""
+            @apply bg-white absolute w-9 h-1 translate-y-[-10px] z-0
+
+    .burgerMenuTrigger:hover ~ .burgerMenu
+        @apply w-5
+
+    &.active     
+        .burgerMenu      
+            transition: 0ms width ease-in-out, 250ms background-color ease-in-out
+            @apply w-0 bg-white
+
+            &::after
+                transition: 250ms transform ease-in-out, 250ms background-color ease-in-out
+                @apply bg-white translate-y-0 rotate-[135deg]
+
+            &::before
+                transition: 250ms transform ease-in-out, 250ms background-color ease-in-out
+                @apply bg-white translate-y-0 rotate-[-135deg]
+
+        .burgerMenuTrigger:hover ~ .burgerMenu
+            @apply w-0

@@ -1,0 +1,31 @@
+{
+    "dev": {
+        "app_function": "main.app",
+        "aws_region": "eu-central-1",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "environment_variables": 
+        {
+            "EMAIL": "bmwelding.contactform@gmail.com",
+            "PASS_EMAIL_APP": "qrdmzojbljohxefl",
+            "EMAIL_TO": "info@bmwelding.sk",
+            "ORIGIN": "https://www.bmwelding.sk"
+        },
+        "profile_name": "default",
+        "project_name": "bm-welding",
+        "runtime": "python3.12",
+        "s3_bucket": "zappa-pmq20lkcn",
+        "cors": {
+            "allowed_origin": "https://www.bmwelding.sk",    
+            "allowed_headers": ["Content-Type", "Authorization"],  
+            "allowed_methods": ["POST", "OPTIONS"]  
+        },
+        "keep_warm": true,
+        "keep_warm_expression": "rate(30 minutes)"
+    }
+}
