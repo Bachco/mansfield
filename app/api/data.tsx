@@ -39,7 +39,8 @@ export const pageAboutData: ElementProps = {
 export const pageData: ElementProps = {
     title: {
         title: 'Námestie Slovenskej republiky 5/8, 014 01 Bytča',
-        headingLevel: 2,
+        headingLevel: 1,
+        specialClass: 'mb-0'
     },
 };
 

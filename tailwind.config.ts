@@ -17,15 +17,16 @@ const config: Config = {
       sm: '640px',
       md: '768px',
       lg: '960px',
-      xl: '1200px',
-      '2xl': '1480px',
+      xl: '1024px',
+      '2xl': '1280px',
     },
     extend: {
       colors: {
-        primary: '#896C25',
+        primary: '#b39534',
         secondary: '#06163a',
         accent: '#F13024',
-        cText: '#959ba9'
+        cText: '#959ba9',
+        black: '#0E0D06'
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',

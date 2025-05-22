@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContainerWrap__narrow: React.FC<WraperProps> = ({children, customClass = ""}) => {
   return (
-    <div className={`container mx-auto 2xl:px-40 px-8 ${customClass}`}>
+    <div className={`container mx-auto 2xl:px-40 relative ${customClass}`}>
         {children}
     </div>
   ) 

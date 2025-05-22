@@ -3,19 +3,20 @@ import Logo from '../Logo/Logo'
 import ContainerWrap from '../ContainerWrap/ContainerWrap'
 import { FiInstagram } from "react-icons/fi";
 import Link from 'next/link';
+import ContainerWrap__narrow from '../ContainerWrap/ContainerWrap__narrow';
 
 
 const Header__top = () => {
   return (
     <div className='header__top bg-black relative text-primary'>
-      <ContainerWrap>
+      <ContainerWrap__narrow>
         <div className="flex justify-center items-center">
           <Logo />
           <Link href={"https://www.instagram.com/"} target='_blank' >
-            <FiInstagram className='text-4xl absolute top-16 right-16'/>
+            <FiInstagram className='md:text-4xl text-2xl absolute top-1/2 -translate-y-1/2 2xl:right-40 right-8'/>
           </Link>
         </div>
-      </ContainerWrap>
+      </ContainerWrap__narrow>
     </div>
   )
 }

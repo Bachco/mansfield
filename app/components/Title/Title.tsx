@@ -8,8 +8,8 @@ const Title: React.FC<DataProps<TitleProps>> = ({data = {} as TitleProps}) => {
   const safeHeadingLevel = Math.min(3, Math.max(1, (headingLevel ? headingLevel : 1)));
 
   const headingClassNames: Record<number, string> = {
-    1: 'h1 lg:text-[60px] text-[30px] mb-4',
-    2: 'h2 lg:text-[60px] text-[30px] mb-4',
+    1: 'h1 lg:text-[50px] text-[30px] mb-4',
+    2: 'h2 lg:text-[50px] text-[30px] mb-4',
     3: 'h3 text-[30px] mb-2',
   };
 
