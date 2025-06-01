@@ -11,7 +11,7 @@ const Header__top = () => {
       <ContainerWrap__narrow>
         <div className="flex md:justify-start justify-center items-center">
           <Logo />
-          <Link href={"https://www.instagram.com/"} target='_blank' >
+          <Link href={"https://www.instagram.com/mansfield_kutz/"} target='_blank' >
             <FiInstagram className='md:text-4xl text-2xl absolute top-1/2 -translate-y-1/2 2xl:right-40 right-8'/>
           </Link>
         </div>
