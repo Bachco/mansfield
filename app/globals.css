@@ -16,4 +16,31 @@
   .text-balance {
     text-wrap: balance;
   }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-4px); }
+  }
+  @keyframes impulse {
+    30%, 70% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+  }
+
+  /* 2. Trieda na použitie v HTML/JSX */
+  .animate-impulse {
+    animation: impulse 2.5s ease-in-out infinite;
+  }
+  .leader {
+  height: 3px;           /* ⌀ bodky = 3 px */
+  flex-grow: 1;
+  margin: 0 10px;        /* zľava / sprava */
+
+  /* ── bodky 3 px, medzera 7 px ───────────────────────────── */
+  background-image: radial-gradient(circle, currentColor 1.5px, transparent 1.5px);
+  background-size: 9px 3px;   /* 3 px bodka + 7 px medzera  */
+  background-repeat: repeat-x; /* opakovať len vodorovne     */
+}
 }

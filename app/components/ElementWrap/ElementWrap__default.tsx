@@ -35,7 +35,8 @@ const ElementWrap__default: FC<ElementWrapPropsExtended> = ({ data = {} as Eleme
         <section className={elClass}>
             <WrapperComponent>
                 <div>
-                    <Title data={title} />
+                    {title && <Title data={title} />}
+                    
                 </div>
                 {content && (
                     <div>
